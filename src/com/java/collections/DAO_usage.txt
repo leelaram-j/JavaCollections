@@ -1,0 +1,35 @@
+Let's say we have an entity to represent an employee:
+
+public class Employee {
+
+    private int id;
+    private String name;
+
+
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+
+}
+The employee entities will be persisted into a corresponding Employee table in a database. A simple DAO interface to handle the database operation required to manipulate an employee entity will be like:
+
+interface EmployeeDAO {
+
+    List<Employee> findAll();
+    List<Employee> findById();
+    List<Employee> findByName();
+    boolean insertEmployee(Employee employee);
+    boolean updateEmployee(Employee employee);
+    boolean deleteEmployee(Employee employee);
+
+}
+Next we have to provide a concrete implementation for that interface to deal with SQL server, and another to deal with flat files, etc.
