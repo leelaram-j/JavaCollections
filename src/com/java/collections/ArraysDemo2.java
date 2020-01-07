@@ -10,6 +10,7 @@ public class ArraysDemo2
     {
         // For large arrays on multi core. Min Size atleast 1>> 13 = 8192
         int [] iArray = {23,4,59};
+
         Arrays.parallelSort(iArray);
         System.out.println("Parallel Sort:"+Arrays.toString(iArray));
 

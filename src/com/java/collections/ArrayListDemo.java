@@ -31,7 +31,8 @@ public class ArrayListDemo implements Iterable<Integer>
         list1_1.add(3);
         list1_1.add(null);
         System.out.println("list 1_1="+list1_1);
-        list1_1.remove(3);
+        //list1_1.remove(3);
+        list1_1.remove("3");
         System.out.println("list 1_1="+list1_1);
         list1_1.remove(3);
         System.out.println("list 1_1="+list1_1);
@@ -77,6 +78,7 @@ public class ArrayListDemo implements Iterable<Integer>
         list3.add(0,7);
         System.out.println("List 3:"+list3);
         System.out.println("list 1_1="+list1_1);
+        System.out.println("********"+list1_1.size());
 
         //Changes made in list 1_1 will reflect in list 3 as well.
 
