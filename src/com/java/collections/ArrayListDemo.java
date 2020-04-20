@@ -1,9 +1,6 @@
 package com.java.collections;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 import java.util.function.Consumer;
 
 public class ArrayListDemo implements Iterable<Integer>
@@ -28,20 +25,27 @@ public class ArrayListDemo implements Iterable<Integer>
         list1_1.add(1);
         list1_1.add(2);
         list1_1.add(3);
-        list1_1.add(3);
+        list1_1.add(4);
         list1_1.add(null);
+        Iterator<Integer> iterator = list1_1.iterator();
+        while(iterator.hasNext())
+        {
+            System.out.println(iterator.next()+"****");
+        }
         System.out.println("list 1_1="+list1_1);
         //list1_1.remove(3);
         list1_1.remove("3");
-        System.out.println("list 1_1="+list1_1);
+        System.out.println("object remove------list 1_1="+list1_1);
         list1_1.remove(3);
-        System.out.println("list 1_1="+list1_1);
+        System.out.println("index remove------list 1_1="+list1_1);
         list1_1.add(10);
         System.out.println("list 1_1="+list1_1);
         list1_1.add(0,9);
         System.out.println("list 1_1="+list1_1);
         list1_1.set(0,8);
         System.out.println("list 1_1="+list1_1);
+        list1.toString();
+
 
         //List remove is position specific
 //
@@ -59,10 +63,10 @@ public class ArrayListDemo implements Iterable<Integer>
         System.out.println("list 1_1.set(2,2) is "+list1_1.set(2,2));
         System.out.println("list 1_1="+list1_1);
 
-
+        System.out.println("!!!!!!!!!!!!"+list1.equals(list1_1));
         //Search functions
 
-        System.out.println("list 1_1.contains(1)="+list1_1.contains(1));
+        System.out.println("!!!!!list 1_1.contains(1)="+list1_1.contains(1));
         System.out.println("list 1_1.indexOf(1)="+list1_1.indexOf(1));
         System.out.println("list 1_1.lastIndexOf(1)="+list1_1.lastIndexOf(1));
 
@@ -90,6 +94,11 @@ public class ArrayListDemo implements Iterable<Integer>
         //list1_1.add(0,5);
         //System.out.println("List 3:"+list3);
         System.out.println("list 1_1="+list1_1);
+        Integer[] a = list1_1.toArray(new Integer[list1_1.size()]);
+        for(int aa:a)
+        {
+            System.out.println(aa+"************");
+        }
 
 //        for(int element: list1_1 )//new ArrayListDemo())
 //        {
@@ -119,6 +128,8 @@ public class ArrayListDemo implements Iterable<Integer>
             }
         }
         System.out.println("list 1 after removal is "+list1);
+        ListIterator<Integer> its = list1.listIterator();
+
         System.out.println("exiting iterator Demo function");
 
         //list1.forEach(System.out::println); ClassName::function_name

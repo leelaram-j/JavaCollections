@@ -92,6 +92,14 @@ public class ArraysDemo
         Object[] objArray = new int [][][] {{{1,2,3}}};
         int [][] ia = (int[][])objArray[0];
         System.out.println(ia[0][2]);
+
+
+        String s1= "this is testing";
+        String str1;
+        char[] strings24 = s1.toCharArray();
+        List<char[]> listf = new ArrayList<>();
+                listf=Arrays.asList(strings24);
+        System.out.println(listf.toString());
     }
 
     public static void main(String[] args)

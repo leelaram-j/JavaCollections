@@ -14,6 +14,7 @@ public class MapDemo
         map1.put("Alex",30);
         map1.put("Yankee",null);
         map1.put("Donkey",22);
+        map1.put(null,22);
 
         System.out.println("Hash Map values:"+map1);
 
@@ -39,6 +40,9 @@ public class MapDemo
         {
             System.out.println("Name:+"+mapping.getKey()+" Age:"+mapping.getValue());
         }
+        System.out.println("\nIterating using Streams");
+        mappings.stream().forEach(s->System.out.println("Name:"+s.getKey()+" Age:"+s.getValue()));
+        mappings.stream().filter(s->s.getValue().toString().startsWith("Y")).count();
 
         //While iterating using KeySet the derived set is backed by the original, So
         names.remove("Donkey");

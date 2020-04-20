@@ -52,6 +52,10 @@ public class LinkedListDemo {
         System.out.println("list 1_1=" + list1_1);
         System.out.println("list 1_1.set(2,2) is " + list1_1.set(2, 2));
         System.out.println("list 1_1=" + list1_1);
+        Iterator<Integer> itsd = ((LinkedList<Integer>) list1).descendingIterator();
+        while (itsd.hasNext()){
+            System.out.println("*.*"+itsd.next());
+        }
 
 
         //Search functions

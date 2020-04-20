@@ -13,7 +13,7 @@ public class LinkedHashSetDemo
         hashSet.add("Kumar");
         hashSet.add("Priya");
         // Here insertion sequence will not be preserved
-        System.out.println("HashSet:"+hashSet);
+        System.out.println("HashRSet:"+hashSet);
 
         Set<String> linkedHashSet = new LinkedHashSet<>();
         linkedHashSet.add("Raj");

@@ -24,11 +24,16 @@ public class QueueDemo
         deque.push("walden");
         deque.push("harry potter");
         deque.push("head first java");
+        System.out.println(deque.element());
 
-        System.out.println("Printing Queue ..");
-        System.out.println(deque.pop()); //removeFirst
-        System.out.println(deque.pop());
-        System.out.println(deque.pop());
+        System.out.println("Printing Queue ..****");
+
+        while(!deque.isEmpty()){
+            System.out.println(deque.pop()); //removeFirst
+        }
+//        System.out.println(deque.pop()); //removeFirst
+//        System.out.println(deque.pop());
+//        System.out.println(deque.pop());
 
 
         //Linked list also can be used with queue.

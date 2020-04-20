@@ -1,5 +1,6 @@
 package com.java.collections;
 
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
@@ -12,14 +13,19 @@ public class SetDemo
         set1.add("a");
         set1.add("b");
         set1.add("a");
+        System.out.println(set1.contains("a"));
+        set1.remove("a");
+        System.out.println(set1);
+
 
         System.out.println("Set_1:"+set1); // here duplicate data is not inserted.
 
         Book book1 = new Book("Walden","Henry",1854);
-        Book book2 = new Book("Walden","Henry",1854);
+        Book book2 = new Book("Walden","Henry",1855);
         Set<Book> set2 =new HashSet<>();
         set2.add(book1);
         set2.add(book2);
+        set2.spliterator();
         System.out.println("Set 2: "+set2);
     }
 

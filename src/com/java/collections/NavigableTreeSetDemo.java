@@ -30,7 +30,7 @@ public class NavigableTreeSetDemo
         System.out.println("Descending order set elements: "+set1);
 
         NavigableSet<Integer> set2 = set.headSet(30,true);
-        System.out.println("Head set elements: "+set2);
+        System.out.println("Head set elements:1 "+set2);
 
         set2.add(25);
         System.out.println("Head set elements: "+set2);
