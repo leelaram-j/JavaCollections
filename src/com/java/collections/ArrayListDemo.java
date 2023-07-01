@@ -100,6 +100,7 @@ public class ArrayListDemo implements Iterable<Integer>
             System.out.println(aa+"************");
         }
 
+        List<Integer> list4 = Arrays.asList(new Integer[]{2,3,4,7});
 //        for(int element: list1_1 )//new ArrayListDemo())
 //        {
 //            System.out.println("element: "+element);

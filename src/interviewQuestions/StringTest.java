@@ -1,6 +1,7 @@
 package interviewQuestions;
 
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -29,6 +30,11 @@ public class StringTest
         set1.add(-1);
         set1.add(5);
         System.out.println(set1);
+
+        Collection mike = new HashSet<String>();
+        mike.add("text");
+        mike.add("time");
+        System.out.println(mike);
 
     }
 }

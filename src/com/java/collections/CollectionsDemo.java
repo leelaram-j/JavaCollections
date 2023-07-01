@@ -73,7 +73,7 @@ public class CollectionsDemo
         Collections.reverse(chr);
         System.out.println(chr);
         String[] str = chr.toArray(new String[chr.size()]);
-        Arrays.stream(str).forEach(s23->System.out.print(s23));
+        Arrays.stream(str).forEach(a->System.out.print(a));
 
 
 

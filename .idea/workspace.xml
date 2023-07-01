@@ -2,56 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28ca6052-828f-4083-ae50-787df0513fc8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/java/collections/StackUsingLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/collections/basicMapsImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/collections/middleEleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java/collections/sortedSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/Arraysort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/DateDiff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/arrayReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/fact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/permu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/prime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/removeRepetElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/repeatedCharString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/revreseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/starPrinting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interviewQuestions/testr45.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/ArrayListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/ArrayListDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/ArraysDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/ArraysDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/ArraysDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/ArraysDemo2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/CollectionsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/CollectionsDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/Filter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/Filter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/IntBinaryOperatorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/IntBinaryOperatorImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/IntUnaryOperatorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/IntUnaryOperatorImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/LinkedHashSetDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/LinkedHashSetDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/LinkedListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/LinkedListDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/MapDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/MapDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/NavigableTreeSetDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/NavigableTreeSetDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/QueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/QueueDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/SetDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/com/java/collections/SetDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaCollections/interviewQuestions/StringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaCollections/interviewQuestions/StringTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/java/collections/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/collections/ArrayListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/collections/ArraysDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/collections/ArraysDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/java/collections/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/collections/CollectionsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/collections/LinkedHashSetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/collections/LinkedHashSetDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/collections/LinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/collections/LinkedListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/collections/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/collections/MapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/collections/NavigableTreeSetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/collections/NavigableTreeSetDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/collections/QueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/collections/QueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java/collections/SetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java/collections/SetDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interviewQuestions/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interviewQuestions/StringTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,6 +39,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="docker-desktop" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1aPGtPFofHdTP4a17NfhMiKNkKG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -95,9 +65,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
-  <component name="RunManager" selected="Application.StringTest">
-    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.collections.QueueDemo" />
+  <component name="RunManager" selected="Application.ArrayListDemo">
+    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.collections.ArrayListDemo" />
       <module name="JavaCollections" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -110,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackUsingLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.collections.StackUsingLinkedList" />
+    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.collections.QueueDemo" />
       <module name="JavaCollections" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -189,22 +159,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StackUsingLinkedList" />
       <item itemvalue="Application.QueueDemo" />
       <item itemvalue="Application.TreeSetDemo" />
       <item itemvalue="Application.sortedSet" />
       <item itemvalue="Application.StringTest" />
+      <item itemvalue="Application.ArrayListDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListDemo" />
         <item itemvalue="Application.StringTest" />
         <item itemvalue="Application.sortedSet" />
         <item itemvalue="Application.TreeSetDemo" />
         <item itemvalue="Application.QueueDemo" />
-        <item itemvalue="Application.StackUsingLinkedList" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -235,7 +206,15 @@
       <workItem from="1585387897694" duration="3054000" />
       <workItem from="1586629550166" duration="147000" />
       <workItem from="1586630044130" duration="394000" />
-      <workItem from="1586859558355" duration="1704000" />
+      <workItem from="1586859558355" duration="4557000" />
+      <workItem from="1599636313452" duration="384000" />
+      <workItem from="1616602733421" duration="134000" />
+      <workItem from="1616603055478" duration="504000" />
+      <workItem from="1617390404163" duration="975000" />
+      <workItem from="1617819271592" duration="3132000" />
+      <workItem from="1618480645870" duration="216000" />
+      <workItem from="1635185779348" duration="418000" />
+      <workItem from="1640958466268" duration="2436000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1578379676200</created>
@@ -248,11 +227,29 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes" />
     <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="288" key="GridCell.Tab.0.bottom" timestamp="1616956586883">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="288" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1616956586883" />
+    <state width="1398" height="288" key="GridCell.Tab.0.center" timestamp="1616956586880">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="288" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1616956586880" />
+    <state width="1398" height="288" key="GridCell.Tab.0.left" timestamp="1616956586878">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="288" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1616956586878" />
+    <state width="1398" height="288" key="GridCell.Tab.0.right" timestamp="1616956586881">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="288" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1616956586881" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
